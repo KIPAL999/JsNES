@@ -1,0 +1,60 @@
+.top {
+  position: relative;
+  height: 7.36rem;
+}
+.top .trunFrom {
+  background-color: #666666;
+  border-radius: 0.2rem;
+  position: fixed;
+  top: 0;
+  height: 2rem;
+  line-height: 2rem;
+}
+.top form {
+  position: absolute;
+  top: 1rem;
+  left: 50%;
+  overflow: hidden;
+  transform: translateX(-50%);
+  width: 98%;
+  height: 1.76rem;
+  line-height: 1.76rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
+}
+.top form .form-one {
+  display: block;
+  height: 1.36rem;
+  border-radius: 0.68rem;
+  background-color: #666666;
+  display: flex;
+  align-items: center;
+}
+.top form .form-one img {
+  width: 1.36rem;
+  height: 1.36rem;
+}
+.top form .form-middle {
+  display: flex;
+  width: 80%;
+  height: 1.36rem;
+  font-size: 0.6rem;
+}
+.top form .form-middle i {
+  display: block;
+  height: 100%;
+  position: relative;
+  top: -0.2rem;
+  left: 1.4rem;
+  color: #666;
+}
+.top form .form-middle input {
+  width: 100%;
+  outline: 0 none;
+  border: 0;
+  border-radius: 0.6rem;
+  padding-left: 2rem;
+  color: #666;
+}

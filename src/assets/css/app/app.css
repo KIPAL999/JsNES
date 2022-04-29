@@ -1,0 +1,19 @@
+#app {
+  background-color: #f7f7f7;
+  overflow: hidden;
+  margin: 0;
+}
+#app a,
+#app a:hover,
+#app a:active,
+#app a:visited,
+#app a:link,
+#app a:focus {
+  text-decoration: none;
+}
+.bodyShow {
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  top: 0;
+}

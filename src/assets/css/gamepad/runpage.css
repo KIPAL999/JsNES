@@ -1,0 +1,195 @@
+.bodyShow {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.bodyShow #app {
+  width: 100%;
+  height: 100%;
+}
+.runpage {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.runpage .navbar-expand {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.runpage .navbar-expand button {
+  user-select: none;
+  outline: 0;
+  background-color: #000;
+  color: red;
+  border: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  font-size: 0.4rem;
+}
+.runpage .saveing {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1.5rem;
+  float: left;
+}
+.runpage .saveing button {
+  user-select: none;
+  outline: 0;
+  background-color: #000;
+  color: red;
+  border: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  font-size: 0.4rem;
+}
+.runpage .saveTool {
+  width: 80%;
+  height: 10%;
+  background-color: #fff;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  border-radius: 0.4rem;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+}
+.runpage .saveTool img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  padding: 0.3rem;
+}
+.runpage .saveTool img:first-of-type {
+  position: absolute;
+  top: -1.5rem;
+  right: 0;
+  padding: 0;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+}
+.runpage .saveTool p {
+  flex: 1;
+  font-size: 0.3rem;
+}
+.runpage .saveTool button {
+  user-select: none;
+  outline: 0;
+  background-color: #67c100;
+  color: #fff;
+  border: 0;
+  width: 2rem;
+  height: 1.5rem;
+  border-radius: 0.3rem;
+  margin-right: 0.3rem;
+  font-size: 0.5rem;
+}
+.runpage .saveTool .loadClose {
+  display: none;
+}
+.runpage .saveClose {
+  display: none!important;
+}
+.runpage .saveingNone {
+  display: none;
+}
+.runpage .screen-container {
+  width: 100%;
+  height: 60%;
+  background-color: #2d2e2a;
+  text-align: center;
+}
+.runpage #btn_load {
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.runpage .controller-action {
+  width: 100%;
+  height: 40%;
+  position: relative;
+  background-color: #e5ba87;
+  /* 摇杆容器 */
+}
+.runpage .controller-action .function {
+  height: 1.8rem;
+  display: flex;
+}
+.runpage .controller-action .function button {
+  user-select: none;
+  text-align: center;
+  margin: 0.4rem;
+  padding: 0;
+  width: 2rem;
+  height: 1rem;
+  outline: 0;
+  border: 0;
+  background-color: #000;
+  color: red;
+  border-radius: 1rem;
+  font-size: 0.5rem;
+}
+.runpage .controller-action #direction {
+  z-index: 90;
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  border: 3px solid #d4b012;
+  background-color: #fff;
+}
+.runpage .controller-action .action {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 7rem;
+  height: 100%;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.runpage .controller-action .action button {
+  user-select: none;
+  width: 3rem;
+  height: 3rem;
+  background: #857b7a;
+  border-radius: 50%;
+  outline: 0;
+  font-weight: bold;
+  font-size: 0.5rem;
+  font-style: italic;
+  color: #000;
+  border: 1px solid #5a6161;
+}
+.runpage .controller-action .action .action0 {
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.runpage .controller-action .action .action1 {
+  justify-content: center;
+}
+.runpage .controller-action .action #y-button {
+  background-color: #fef76e;
+}
+.runpage .controller-action .action #x-button {
+  background-color: #8dff22;
+}
+.runpage .controller-action .action #b-button {
+  background-color: #33a4fe;
+}
+.runpage .controller-action .action #a-button {
+  background-color: #e9342c;
+}

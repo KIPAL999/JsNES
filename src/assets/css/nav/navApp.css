@@ -1,0 +1,25 @@
+.nav {
+  display: flex;
+  height: 3rem;
+  background-color: #fff;
+  margin-top: 0.6rem;
+}
+.nav .active {
+  background-color: pink;
+}
+.nav li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.nav li img {
+  width: 1.68rem;
+}
+.nav li p {
+  margin: 0;
+  padding: 0;
+  font-size: 0.5rem;
+  margin-top: 0.2rem;
+}

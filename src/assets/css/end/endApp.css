@@ -1,0 +1,15 @@
+.endApp .end {
+  display: none;
+  position: fixed;
+  bottom: 2rem;
+  right: 0.4rem;
+}
+.endApp .end img {
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 0.6rem;
+  background-color: #666666;
+}
+.endApp .endShow {
+  display: block;
+}

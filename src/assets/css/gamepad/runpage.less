@@ -1,0 +1,225 @@
+
+.bodyShow {
+    width: 100%;
+    height: 100%;
+    overflow:hidden;  
+    #app {
+      width: 100%;
+      height: 100%;
+    }
+}
+
+.runpage {
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+// 退出按钮;
+.navbar-expand {
+  position: absolute;
+  top: 0;
+  left: 0;
+  button {
+    user-select: none;    
+    outline: 0;
+    background-color: #000;
+    color: red;
+    border: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    font-size: .4rem;      
+  }
+}
+
+// 保存和加载;
+.saveing {
+  position: absolute;
+  top: 0;
+  right: 0;  
+  width: 1.5rem;
+  float: left;
+  button {
+    user-select: none;    
+    outline: 0;
+    background-color: #000;
+    color: red;
+    border: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    font-size: .4rem;      
+  }
+}
+
+// 提示框;
+.saveTool {
+  width: 80%;
+  height: 10%;
+  background-color: #fff;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  border-radius: .4rem;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: .5rem;
+    padding: .3rem;
+    &:first-of-type {
+      position: absolute;
+      top: -1.5rem;
+      right: 0;
+      padding: 0;
+      width: 1.2rem;
+      height: 1.2rem;
+      border-radius: 50%;
+    }
+  }
+  p {
+    flex: 1;
+    font-size: .3rem;
+  }
+  button {
+    user-select: none;    
+    outline: 0;
+    background-color: #67c100;
+    color: #fff;
+    border: 0;
+    width: 2rem;
+    height: 1.5rem;
+    border-radius: .3rem;
+    margin-right: .3rem;
+    font-size: .5rem;  
+  }
+  .loadClose {
+    display: none;
+  }  
+}
+
+.saveClose {
+  display: none!important;
+}
+
+.saveingNone {
+  display: none;
+}
+
+// 游戏画布;
+.screen-container {
+  // height: 11.28rem;
+  width: 100%;
+  height: 60%;
+  background-color: #2d2e2a;
+  text-align: center;
+}
+// 图片区域;
+#btn_load {
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+// 触摸区域;
+.controller-action {
+  // height: 7.52rem;
+  width: 100%;
+  height: 40%;
+  position: relative;
+  background-color:#e5ba87;
+
+
+  // 选择和开始;
+.function{
+  height: 1.8rem;
+  display: flex;
+  // 控制键  
+  button {
+    user-select: none;
+    text-align: center;
+    margin: .4rem;
+    padding: 0;
+    width: 2rem;
+    height: 1rem;
+    outline: 0;
+    border: 0;
+    background-color: #000;
+    color: red;
+    border-radius: 1rem;
+    font-size: .5rem;
+  }
+}
+
+
+
+  /* 摇杆容器 */
+  #direction {
+    z-index: 90;  
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    border: 3px solid #d4b012;
+    background-color:#fff;
+  }
+
+// 功能键
+  .action {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 7rem;
+    height: 100%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    button {
+      user-select: none;
+      width: 3rem;
+      height: 3rem;
+      background: #857b7a;
+      border-radius: 50%;
+      outline: 0;
+      font-weight: bold;
+      font-size: .5rem;
+      font-style: italic;
+      color: #000;
+      border: 1px solid #5a6161;
+    }      
+    .action0 {
+      height: 3rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .action1 {
+      justify-content: center;
+    }    
+    #y-button {
+      background-color: #fef76e;
+    }
+    #x-button {
+      background-color: #8dff22;
+    }
+    #b-button {
+      background-color: #33a4fe;
+    }
+    #a-button {
+      background-color: #e9342c;
+    }
+  }
+
+}
+
+}
+  

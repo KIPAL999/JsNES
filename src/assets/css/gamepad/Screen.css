@@ -1,0 +1,6 @@
+.Screen {
+  /* webkit */
+  image-rendering: pixelated; 
+  /* firefox */
+  image-rendering: optimizespeed; 
+}
